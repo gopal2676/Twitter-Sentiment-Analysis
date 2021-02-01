@@ -67,5 +67,4 @@ def build_freqs(tweets, ys):
                 freqs[pair] += 1
             else:
                 freqs[pair] = 1
-
     return freqs
